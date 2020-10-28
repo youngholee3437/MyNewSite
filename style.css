@@ -1,0 +1,124 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Patua One', cursive;
+}
+
+
+h1{
+   margin-top: 0;
+   font-family: 'Patua One', cursive;
+   font-size: 90px;
+  }
+
+ h2{
+   font-size: 40px;
+ }
+
+
+  .container-top {
+/* 패딩 탑 100px의 이유는 위의 거리 뛰우기 */
+    position: relative;  
+    padding-top : 100px;
+    font-size: 1.0em;
+    background-color : #214252;
+  }
+  
+.top-cloud{
+position: absolute;
+top : 30px;
+right: 150px;
+}
+
+.bottom-cloud{
+    position: absolute;
+    bottom: 280px;
+    left: 70px;
+}
+.container-top h2 span{
+text-decoration: underline;
+
+}
+
+/*  */
+.profile{
+background-color: #214252;
+width: 30%;
+margin: auto;
+padding: 100px 0;  
+/* padding: 1 / 2   1번은 위아래 값, 2번은 좌우 값*/
+}
+
+.profile img {
+  position: relative;
+   width: 40%;
+}
+
+
+.profile p {
+line-height: 2;
+font-size: 30px;
+}
+/* 라인 하이트 : 글자간격 */
+/* .profile p 프로파일의 p태그 */
+/* 그림과 글자사이의 간격, margin-right  */
+/* float, left / right */
+
+.skills-javaimg {
+  float: left;
+  width: 150%;
+}
+
+.porfile-pro2{
+
+}
+
+.skills{
+  padding-top: 100px;
+text-align: center;
+
+}
+
+
+  .container-middle{
+position: relative;
+background-color: #214252;
+
+
+}
+
+.contact-me{
+width: 100%;
+margin: 100px auto;
+line-height: 2;
+background-color: #214252;
+color : white;
+}
+
+.contact-me .btn{
+background-color: #ce6262;
+padding: 10px 20px;
+/* padding이 버튼의 사이즈 결정 */
+/* border-radius: 10px; 각진거 둥글게 만들어 줌*/ 
+display: inline-block;
+margin-bottom: 20px;
+}
+
+.container-bottom{
+padding: 50px o;
+background-color: #214252;
+}
+
+
+.container-bottom a{
+/* container-bottom의 a태그 */
+font-size: 30px;
+margin: 0 15px;
+color: #f05454;
+}
+
+
+
+.container-bottom p{
+margin-top: 50px;
+}
